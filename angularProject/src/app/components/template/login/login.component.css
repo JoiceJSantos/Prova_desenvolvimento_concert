@@ -1,0 +1,18 @@
+.login{
+    display: flex;
+   margin: 120px 0px 0px 550px;
+}
+
+.myLogin{
+    padding: 30px;
+    background-color: #0C1C8C;
+}
+.myLogin>input{
+    padding: 3px;
+}
+
+.button{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 3px;
+}

@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+}
+
+table tr:nth-child(odd) {/*tabela zebrada*/
+    background-color:#FFF6ED;
+
+}
+table tr:nth-child(even) {/*tabela zebrada*/
+    background-color:#FFFCD3;
+}
+.mat-header-cell {
+    background-color: darkslategray;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+td {
+    color: darkslategray;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+}
+
+.delete{
+    margin-left: 10px;
+}
+.edit{
+    margin-right: 5px;
+}

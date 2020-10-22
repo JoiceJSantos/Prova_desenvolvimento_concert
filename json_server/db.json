@@ -1,0 +1,97 @@
+{
+  "products": [
+    {
+      "name": "Microondas",
+      "price": "359.64",
+      "Brand": "Brastemp",
+      "acquisition": "2020-07-08T03:00:00.000Z",
+      "condition": "Novo",
+      "discount": true,
+      "id": 2
+    },
+    {
+      "name": "Tablet",
+      "price": "142.00",
+      "Brand": "LG",
+      "acquisition": "2020-07-22T03:00:00.000Z",
+      "condition": "Usado",
+      "discount": true,
+      "id": 3
+    },
+    {
+      "name": "Fogão ",
+      "price": "869.67",
+      "Brand": "Continental",
+      "acquisition": "2020-07-14T03:00:00.000Z",
+      "condition": "Usado",
+      "discount": true,
+      "id": 4
+    }
+  ],
+  "client": [
+    {
+      "id": 1,
+      "name": "Joice Jussara santos cesário",
+      "age": 38,
+      "birth": "2020-07-27",
+      "CPF": "033.333.333-33",
+      "genero": "Feminino",
+      "address": "Luiz castanhede, 898 , Santa Cruz , Belo Horizonte-MG"
+    },
+    {
+      "id": 3,
+      "name": "João Batista",
+      "age": "40",
+      "birth": "1979-10-24",
+      "CPF": "043.777.777-94",
+      "genero": "Masculino",
+      "address": "rua cruzeiro 93 cristais Nova lima -MG"
+    },
+    {
+      "id": 5,
+      "name": "Juliana ventura",
+      "age": "35",
+      "birth": "2020-07-21",
+      "CPF": "89.866.868-67",
+      "genero": "Feminino",
+      "address": "Em algum lugar"
+    }
+  ],
+  "store": [
+    {
+      "id": 1,
+      "cnpj": "33.041.260/0872-90",
+      "name": "Ricardo Eletro",
+      "local": "Ceu Azul",
+      "address": "Rua Antônio José dos Santos, 331"
+    },
+    {
+      "id": 2,
+      "cnpj": "33.041.260/0202-90",
+      "name": "Ricardo Eletro",
+      "local": "Minas Shopping",
+      "address": "Av Cristiano Machado, 4000"
+    },
+    {
+      "id": 3,
+      "cnpj": "32.041.598/0652-90",
+      "name": "Ricardo Eletro",
+      "local": "Abílio Machado",
+      "address": "Av Abílio Machado, 1868"
+    },
+    {
+      "id": 4,
+      "cnpj": "33.041.954/0652-90",
+      "name": "Ricardo Eletro",
+      "local": "Centro",
+      "address": "Rua Curutiba, 631"
+    },
+    {
+      "id": 5,
+      "cnpj": "45.381.278/0652-90",
+      "name": "Ricardo Eletro",
+      "local": "Justinópolis",
+      "address": "Rua Dr. josé Maria Alkimin, 88"
+    }
+  ]
+}

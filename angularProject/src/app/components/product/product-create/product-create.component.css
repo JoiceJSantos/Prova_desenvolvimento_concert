@@ -1,0 +1,40 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 20px 15px 0px 0px;
+
+}
+.mycard{
+    background-color: lightgray;
+    color: black;
+    width: 90%;
+    margin-left: 30px;
+
+}
+.myform input{
+   border: 2px ridge darkslategray;
+   padding: 3px;
+   width: 40%;
+   background-color: darkgray;
+    margin: 5px;
+
+
+}
+fieldset{
+    margin-top: 10px;
+}
+
+
+
+.mat-radio-button{
+    font-weight: bold;
+    margin-left: 15px;
+
+}
+
+mat-checkbox{
+    margin-left: 5px;
+}

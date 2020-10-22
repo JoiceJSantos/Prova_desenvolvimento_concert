@@ -1,0 +1,41 @@
+
+form{
+    margin-top: 20px;
+    background-color: darkslategrey;
+    border: 2px ridge darkslategrey;
+}
+input {
+    margin-bottom: 15px;
+}
+#nome{
+    width: 60%;
+}
+#age{
+    width: 10%;
+}
+ fieldset{
+     background-color:darkslategrey;
+     color: #FFFFFF;
+     margin-left: 5px;
+ }
+
+.label{
+     margin-left:15px;
+}
+#address{
+    width: 60%;
+}
+
+button{
+    margin:20px 5px 20px 10px ;
+    padding: 5px;
+    background-color:red;
+    color: white;
+    border-color: white;
+
+
+}
+.cad{
+    background-color: darkgreen;
+
+}

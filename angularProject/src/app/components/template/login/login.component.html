@@ -1,0 +1,14 @@
+<form class="login">
+
+	<fieldset class="myLogin">
+		<h4>Login</h4>
+		<input [(ngModel)]="usuario.nome"placeholder="Usuário" type="text" name="username"/><br><br>
+
+		<input [(ngModel)]="usuario.senha" type="password" placeholder="Senha" name="password"/>
+		<br><br>
+		<button class="button" mat-button name="action" (click)="logar()">
+			Login
+
+		</button>
+	</fieldset>
+</form>

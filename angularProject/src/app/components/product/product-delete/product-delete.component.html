@@ -1,0 +1,54 @@
+<mat-card>
+	<mat-card-title>Excluir Produto</mat-card-title>
+	<form>
+			<fieldset>
+				<p class="prod">Produto
+				<input class="name" matInput [(ngModel)]="product.name" name="name">
+				</p>
+
+				<p>	Preço
+					<input matInput					       [(ngModel)]="product.price" name="price">
+
+
+					<span>Data de Aquisição</span>
+						<input placeholder="Data de aquisição" matInput [matDatepicker]="myDatePiker"
+						       [(ngModel)]="product.acquisition" name="acquisition">
+						<mat-datepicker-toggle [for]="myDatePiker"></mat-datepicker-toggle>
+						<mat-datepicker #myDatePiker startView="month"></mat-datepicker>
+				</p>
+
+				<p>Marca
+					<select [(ngModel)]="product.Brand" name="Brand">
+						<option value="Dell">Dell</option>
+					    <option value="HP">HP</option>
+					    <option value="MC">Mac</option>
+						<option value="Xiomi">Xiaomi</option>
+					    <option value="Motorola" selected>Motorola</option>
+					    <option value="Brastemp">Brastemp</option>
+						<option value="Continental">Continental</option>
+					    <option value="Samsung" >Samsung</option>
+					    <option value="LG">LG</option>
+
+					</select>
+				</p>
+				<mat-radio-group [(ngModel)]="product.condition" name="condition">
+					<p>Condição do produto
+					<mat-radio-button value="Novo">Novo</mat-radio-button>
+					<mat-radio-button value="Usado">Usado</mat-radio-button>
+					</p>
+				</mat-radio-group>
+
+				<label for="check1">
+					<input type="checkbox" [(ngModel)]="product.discount" name="discount"id="check1" value="Atacado">
+					Desconto
+				</label>
+			</fieldset>
+	</form>
+	<button color="warn" mat-raised-button  (click)="deleteProduct()" >
+		Excluir
+	</button>
+	<button mat-raised-button (click)="cancel()" color="primary">
+		Cancelar
+	</button>
+</mat-card>
+

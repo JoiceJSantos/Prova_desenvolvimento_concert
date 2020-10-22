@@ -1,0 +1,43 @@
+mat-card{
+    background-color: darkslategrey;
+}
+mat-card-title{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+button{
+    margin:20px 5px 20px 10px ;
+    padding: 5px;
+    background-color:red;
+    color: white;
+    border-color: white;
+
+}
+.prod{
+    margin-top: 10px;
+}
+.name{
+    width: 70%;
+}
+p{
+    color: white;
+    font-size: 11pt;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+mat-datepicker-toggle{
+    color: white;
+}
+mat-radio-button{
+    margin-left: 10px;
+
+}
+label{
+    color: white;
+    font-size: 11pt;
+}
+span{
+    margin-left: 20px;
+    margin-right: 5px;
+}
